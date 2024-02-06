@@ -48,7 +48,7 @@ const Projects = () => {
               <li> Front end with Javascript and React with JSX, HTML and CSS</li>
               <div className="project-links">
                 <a
-                  href="https://github.com/yxsnd"
+                  href="https://github.com/yxsnd/portfolio"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
