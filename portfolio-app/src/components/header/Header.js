@@ -1,48 +1,39 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faY } from "@fortawesome/free-solid-svg-icons";
-import Button from "react-bootstrap/Button";
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import { NavLink } from "react-router-dom";
+import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
-      <Container fluid>
-        <Navbar.Brand href="/">
-          <FontAwesomeIcon icon={faCode} />
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
-        <Navbar.Collapse id="navbarScroll">
-          <Nav
-            style={{ maxHeight: "100px", width: "100%" }}
-            className="justify-content-end"
+    <nav>
+      <ul className="nav-list">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/yxsnd"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            <NavLink
-              className="nav-link"
-              to="/"
-            >
-              About
-            </NavLink>
-            <NavLink className="nav-link" to="">
-              Projects
-            </NavLink>
-            <NavLink className="nav-link" to="/">
-              Contact
-            </NavLink>
-            <NavLink className="nav-link" to="/">
-              GitHub
-            </NavLink>
-            <Button variant="outline-primary" className="me-2">
-              Resume
-            </Button>
-          </Nav>
-          {/* <Button variant="outline-info" className="me-2">Login</Button>
-                <Button variant="outline-info">Register</Button> */}
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            href="../../resume/resumeyasindud.docx"
+            // className="resume-button"
+            download
+          >
+            Resume
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

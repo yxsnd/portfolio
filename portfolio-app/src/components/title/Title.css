@@ -1,0 +1,35 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem; /* Top and left/right padding */
+  padding-bottom: 10rem; /* Increase bottom padding for more space */
+  border-bottom: 2px solid black; /* Black bottom border */
+}
+
+.profile-image {
+  background-image: url("../../img/profilepic.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.highlight-name {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 60px;
+}
+
+.intro-paragraph {
+  color: #333;
+  font-size: 30px;
+  width: 800px;
+  color: #666;
+}
+
+.type-animation {
+  font-size: 20px;
+}

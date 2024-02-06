@@ -1,0 +1,126 @@
+/* HomePage.css */
+.home-container {
+  color: #fff;
+  background-color: #0a192f; /* dark blue background */
+  font-family: "Calibre", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem; /* adjust as needed */
+}
+
+.navbar .logo {
+  font-size: 2rem;
+}
+
+.navbar nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar nav ul li a {
+  color: #64ffda; /* bright teal */
+  text-decoration: none;
+}
+
+.resume-button {
+  background: transparent;
+  border: 1px solid #64ffda;
+  color: #64ffda;
+  padding: 0.5rem 1rem;
+}
+
+.main-content {
+  flex: 1;
+  padding: 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.main-content h1 {
+  font-size: 3rem;
+  color: #ccd6f6; /* light blue
+  */
+}
+
+.main-content h2 {
+  font-size: 2rem;
+  color: #8892b0; /* grey-blue */
+}
+
+.main-content p {
+  color: #8892b0; /* grey-blue */
+}
+
+.cta-button {
+  background-color: #0bceaf; /* teal */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  color: white;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #09b29a; /* a darker teal */
+}
+
+.social-links {
+  position: fixed;
+  bottom: 0;
+  left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social-links a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 1rem 0;
+  color: #8892b0;
+}
+
+/* Add responsive design */
+@media (max-width: 768px) {
+  .navbar,
+  .main-content {
+    padding: 1rem;
+  }
+
+  .navbar .logo,
+  .navbar nav ul li a,
+  .footer p {
+    font-size: smaller;
+  }
+
+  .main-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .main-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .social-links {
+    left: auto;
+    right: 1rem;
+    bottom: 1rem;
+  }
+}
