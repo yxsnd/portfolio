@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
-import "./Contact.css"
+import "./Contact.css";
 
 // CSS for the icons
 const iconStyle = {
@@ -13,7 +13,8 @@ const iconStyle = {
 // Contact Component
 const Contact = () => {
   return (
-    <div style={{ textAlign: "center", marginTop: "100px" }}>
+    <div className="contact">
+      <h1>Contact me!</h1>
       <a
         href="https://github.com/yxsnd"
         target="_blank"

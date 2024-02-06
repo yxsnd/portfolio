@@ -33,23 +33,19 @@ const Projects = () => {
             </p>
           </div>
 
-          <div className="project-bottom">bottom</div>
+          <div className="project-bottom-pic1">bottom</div>
         </div>
       </div>
 
       <div className="projects-container">
         <div className="project">
           <div className="project-top">
-            <h2 className="project-title">Hair cut booking web-app</h2>
+            <h2 className="project-title">Portfolio website</h2>
             <p>
-              A functional application for a user to book a haircut with a
-              barber of choice.
+              This webpage to showcase my projects and skills.
             </p>
             <p className="hidden-text">
-              <li> Front end with Javascript and React with Tailwindcss</li>
-              <li> Backend with Java Spring boot with spring security</li>
-              <li> JWT token authentication and social login options</li>
-              <li> Database with Postgres SQL</li>
+              <li> Front end with Javascript and React with JSX, HTML and CSS</li>
               <div className="project-links">
                 <a
                   href="https://github.com/yxsnd"
@@ -65,7 +61,7 @@ const Projects = () => {
               </div>
             </p>
           </div>
-          <div className="project-bottom">bottom</div>
+          <div className="project-bottom-pic2">bottom</div>
         </div>
       </div>
       {/* <div className="projects-container">
