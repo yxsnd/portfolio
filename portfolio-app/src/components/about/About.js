@@ -1,4 +1,5 @@
 import React from "react";
+import { ReactComponent as MatrixSvg } from "../../img/matrix.svg";
 import "./About.css"; // Make sure to create and import a CSS file for styling
 
 const About = () => {
@@ -22,6 +23,10 @@ const About = () => {
         and adapting to new technologies. My goal is to build software that
         isn't just functional, but also intuitive and enjoyable to use.
       </p>
+      {/* <img className="matrix" src={matrix} alt="matrix" /> */}
+      <MatrixSvg className="matrix"/>
+      <a href="https://www.youtube.com/watch?v=SDkAGkd4NLc&ab_channel=TheTake" target="_blank" rel="noreferrer">
+      </a>
     </div>
   );
 };

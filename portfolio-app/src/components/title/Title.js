@@ -13,8 +13,8 @@ const About = () => {
         </h1>
         <p className="intro-paragraph">
           I am a Software Developer with a Bachelors in Statistics and Human
-          Biology. I have a passion for creating useful software using code and
-          learning new technologies
+          Biology. I have a passion for creating useful software to innovate or solving real
+          world problems and everything in between.
         </p>
         <h2 className="type-animation">
           <code>

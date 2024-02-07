@@ -1,6 +1,6 @@
 import React from "react";
 import "./Projects.css";
-import { FaGithub, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (

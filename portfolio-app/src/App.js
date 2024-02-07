@@ -3,10 +3,8 @@ import "./App.css";
 import About from "./components/about/About";
 import Footer from "./components/contact/Footer";
 import Header from "./components/header/Header";
-import Title from "./components/title/Title";
-import HomePage from "./components/homepage/HomePage";
 import Projects from "./components/projects/Projects";
-import Proj from "./components/projects/Proj";
+import Title from "./components/title/Title";
 
 function App() {
   return (
@@ -15,9 +13,7 @@ function App() {
       <Title />
       <About />
       <Projects />
-      {/* <Proj /> */}
       <Footer />
-      {/* <HomePage */}
       <Routes>{/* <Route path="/about" element={<About />}></Route> */}</Routes>
     </div>
   );
