@@ -52,7 +52,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="../../resume/resumeyasindud.docx"
+            href="../../resume/yasindu-dissanayake-resume.docx"
             // className="resume-button"
             download
           >
